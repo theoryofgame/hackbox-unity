@@ -15,8 +15,7 @@ namespace Hackbox.UI
             Buzzer,
             Button,
             Choices,
-            Range,
-            Sort
+            Range
         }
 
         public PresetType Type = PresetType.Text;

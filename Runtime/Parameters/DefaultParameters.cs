@@ -129,7 +129,6 @@ namespace Hackbox.Parameters
                         return null;
 
                     case Preset.PresetType.Choices:
-                    case Preset.PresetType.Sort:
                         if (parameterChain == null || parameterChain.Length == 0)
                         {
                             return new Dictionary<string, Parameter>()
@@ -261,7 +260,6 @@ namespace Hackbox.Parameters
 
                     case Preset.PresetType.Button:
                     case Preset.PresetType.Choices:
-                    case Preset.PresetType.Sort:
                         if (parameterChain == null || parameterChain.Length == 0)
                         {
                             return new Dictionary<string, Parameter>()
